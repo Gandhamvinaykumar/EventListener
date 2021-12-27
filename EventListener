@@ -1,0 +1,14 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+        document.getElementById("mybtn").addEventListener("click",myfunction);
+        function myfunction(){
+        document.getElementById("para").innerHTML="GANDHAM VINAY KUMAR"
+        }
+        </script>
+        <h2>my name is gandham vinay kumar</h2>
+        <button id="mybtn">click</button>
+        <p id="para"></p>
+    </body>
+</html>
